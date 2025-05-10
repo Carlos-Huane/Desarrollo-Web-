@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px;">
+
+    <h1 style="text-align: center; color: #dd2626;">Formulario de Registro</h1>
+
+    <form action="mailto:carloshuanesarmiento@gmail.com" method="post" enctype="text/plain" 
+        style="max-width: 400px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);">
+        
+        <label for="email" style="font-weight: bold;">Correo: </label>
+        <input type="email" id="email" name="email" required 
+            style="width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px;">
+        <br>
+
+        <label style="font-weight: bold;">Marque la casilla si eres mayor de edad: </label>
+        <input type="checkbox" name="mayor_edad" value="Sí" style="margin-bottom: 10px;">
+        <br>
+
+        <label style="font-weight: bold;">Seleccione tu color preferido: </label> 
+        <input type="color" name="color" style="margin-bottom: 10px;">
+        <br>
+
+        <label style="font-weight: bold;">Selecciona tu año de nacimiento: </label>
+        <input type="date" name="fecha_nacimiento" 
+            style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 10px;">
+        <br>
+
+        <label style="font-weight: bold;">Seleccione una contraseña: </label>
+        <input type="password" name="password" 
+            style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 10px;">
+        <br>
+
+        <label style="font-weight: bold;">Selecciona tu provincia:</label>
+        <select name="provincia" 
+            style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 10px;">
+            <option value="Lima" selected>Lima</option>
+            <option value="Cuzco">Cuzco</option>
+            <option value="Arequipa">Arequipa</option>
+        </select>
+        <br>
+
+        <button type="submit" 
+            style="width: 100%; background-color: #28a745; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer;">
+            Enviar
+        </button>
+    </form>
+
+</body>
+</html>

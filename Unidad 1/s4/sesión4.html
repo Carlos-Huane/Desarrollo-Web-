@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesión 4</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Ejemplo</h1>
+    <div>
+        <h2>ETIQUETA DETAILS/SUMMARY</h2>
+        <details>
+            <summary>Detalles Adicionales</summary>
+            <p>Informacion con mas detalles aqui.</p>
+            <p>opcion 1</p>
+            <p>opcion 2</p>
+            <p>opcion 3</p>
+        </details> 
+    </div>
+
+    <div>
+        <h2>ETIQUETA MARK</h2>
+        <p>Estas aprendiendo <mark>HTML</mark> hoy.</p>
+    </div>
+    
+    <div>
+        <h2>Etiqueta semántica</h2>
+        <p>Ellas viajan el <time datatime="2021-09-14">14 de Septiembre</time>hacia Bogotá.</p>
+        <p>El Viaje es a las <time datatime="20:00">20:00</time> horas y dura <time datatime="PT3H30M">3h 30m</time> apróximadamente.</p>
+    </div>
+
+    <div>
+        <h2>Etiqueta de video y source</h2>
+        <p>Mi video de clase</p>
+        <video width="320" height="230" controls>
+            <source src="juego.mp4" type="video/mp4">
+            <source src="video.webm" type="video/webm">
+            <source src="video.ogg" type="video/ogg">
+            Tu navegador no soporta un video
+        </video>
+
+        <h2>Etiqueta de audio</h2>
+        <p>Mi grabación de audio MP3</p>
+        <audio controls>
+            <source src="/s4/guitarra.mp3" type="audio/mp3">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+    </div>
+    <div>
+        <h2>Etiqueta img</h2>
+        <!-- Por medio de internet -->
+        <!-- <img src="https://hoycuriosidades.com/wp-content/uploads/2021/07/dog-4159596_1920.jpg"> -->
+
+        <!-- De manera local -->
+         <img src="perro_salchicha.jpg" width="300" height="200">
+    </div>
+
+    <div>
+        <h2>Insertar un vídeo de YouTube</h2>
+        <iframe width="600" height="500" src="https://www.youtube.com/embed/iZN9IELhjRc" title="Criando Renacuajos a Ranas (Evolución de 50 Días)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div>
+        <h2>Iframe</h2>
+        <iframe src="https://www.crackthecode.la" title="Web de Crack The Code" width="600" height="500"></iframe>
+
+    </div>
+</body>
+</html>

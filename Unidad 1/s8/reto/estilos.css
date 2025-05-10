@@ -1,0 +1,36 @@
+/* Estilos para el contenedor de la presentación */
+.presentacion {
+    width: 100%; /* Ancho del 100% del contenedor padre */
+    height: 100vh; /* Altura del 100% de la ventana del navegador */
+    display: flex; /* Establece el modelo de diseño flexible */
+    overflow-x: scroll; /* Habilita el desplazamiento horizontal */
+    scroll-snap-type: x mandatory; /* Activa el scroll-snap horizontalmente con alineación obligatoria */
+}
+
+/* Estilos para las diapositivas individuales */
+.diapositiva {
+    min-width: 100%; /* Ancho mínimo del 100% del contenedor padre */
+    height: 100vh; /* Altura del 100% de la ventana del navegador */
+    scroll-snap-align: start; /* Alinea el inicio de la diapositiva con el inicio del scroll-snap */
+    display: flex; /* Establece el modelo de diseño flexible */
+    flex-direction: column; /* Organiza los elementos de la diapositiva en una columna */
+    justify-content: center; /* Centra los elementos verticalmente en la diapositiva */
+    align-items: center; /* Centra los elementos horizontalmente en la diapositiva */
+    padding: 2rem; /* Agrega un espacio interior de 2rem alrededor de los elementos de la diapositiva */
+    /* Agrega un gradiente de fondo a las diapositivas */
+    background-image: linear-gradient(to right, #1e3c72, #2a5298);
+}
+
+/* Estilos para los títulos de las diapositivas */
+.diapositiva h1 {
+    color: #ffffff; /* Color blanco para los títulos */
+    font-size: 2.5rem; /* Tamaño de fuente de 2.5rem para los títulos */
+    margin-bottom: 1rem; /* Margen inferior de 1rem después de los títulos */
+}
+
+/* Estilos para los párrafos de las diapositivas */
+.diapositiva p {
+    color: #e0e0e0; /* Color gris claro para los párrafos */
+    font-size: 1.2rem; /* Tamaño de fuente de 1.2rem para los párrafos */
+    text-align: justify; /* Alineación justificada del texto en los párrafos */
+}

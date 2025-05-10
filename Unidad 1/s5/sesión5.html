@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="mailto:carloshuanesarmiento2@gmail.com" method="post" enctype="text/plain">
+
+        <label for="email">Correo: </label>
+        <input type="email" id="email" name="email" required>
+        <br>
+    
+        <label>Marque la casilla si eres mayor de edad: </label>
+        <input type="checkbox" name="mayor_edad" value="Sí">
+        <br>
+    
+        <label>Seleccione tu color preferido: </label> 
+        <input type="color" name="color">
+        <br>
+    
+        <label>Selecciona tu año de nacimiento: </label>
+        <input type="date" name="fecha_nacimiento"><br>
+    
+        <label>Seleccione una contraseña: </label>
+        <input type="password" name="password"><br>
+    
+        <label>Selecciona tu provincia:</label>
+        <select name="provincia">
+            <option value="Lima" selected>Lima</option>
+            <option value="Cuzco">Cuzco</option>
+            <option value="Arequipa">Arequipa</option>
+        </select>
+        <br>
+    
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

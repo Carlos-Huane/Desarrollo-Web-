@@ -1,0 +1,68 @@
+<!-- PARA VISUALIZAR LA DATA UTILIZAR LOS SIGUIENTES COMANDOS: CTRL + SHIFT + V  -->
+# Documentación Básica de Git y Git Bash
+
+## ¿Qué es Git?
+Git es un sistema de control de versiones distribuido de código abierto, diseñado para manejar desde proyectos pequeños hasta muy grandes con velocidad y eficiencia. Permite a los desarrolladores registrar los cambios en sus archivos, colaborar con otros y mantener un historial completo del desarrollo del proyecto.
+
+## ¿Qué es Git Bash?
+Git Bash es una aplicación para entornos Windows que proporciona una capa de emulación de una línea de comandos de Bash. Permite a los usuarios utilizar comandos de Git y herramientas UNIX típicas en sistemas operativos Windows.
+
+## Proceso de Instalación de Git
+1. Ir a la página oficial de Git: [https://git-scm.com](https://git-scm.com)
+2. Descargar el instalador para tu sistema operativo.
+3. Ejecutar el instalador y seguir los pasos del asistente.
+4. Durante la instalación, seleccionar "Git Bash Here" y asegurarse de incluir Git en el PATH.
+5. Finalizar la instalación y verificar su correcto funcionamiento abriendo Git Bash y ejecutando: `git --version`
+
+## Comandos Básicos con Git Bash
+
+| Comando | Descripción |
+|--------|-------------|
+| `ls` | Lista los archivos y carpetas en el directorio actual. |
+| `cd` | Cambia de directorio. Por ejemplo: `cd carpeta` |
+| `mkdir` | Crea un nuevo directorio. Por ejemplo: `mkdir nueva_carpeta` |
+| `touch` | Crea un archivo vacío. Por ejemplo: `touch archivo.txt` |
+| `rm` | Elimina archivos. Por ejemplo: `rm archivo.txt` |
+
+## Cómo Inicializar un Repositorio en Git
+
+1. Elegir una carpeta del proyecto.
+2. Abrir Git Bash en esa carpeta (clic derecho > Git Bash Here).
+3. Ejecutar los siguientes comandos y comprender qué hacen:
+
+```bash
+git init
+```
+Inicializa un nuevo repositorio Git en la carpeta actual. Esto crea una carpeta oculta `.git` donde se almacenará la información del repositorio (historial, configuraciones, etc.).
+
+```bash
+git config --global user.name "estudiante-ctc"
+```
+Configura el nombre del usuario que se usará para los commits de manera global (en todos los repositorios en tu sistema).
+
+```bash
+git config --global user.email estudiante@gmail.com
+```
+Configura el correo electrónico del usuario que se usará para los commits de manera global.
+
+```bash
+git add .
+```
+Añade todos los archivos modificados o nuevos del directorio actual al área de preparación (staging area), indicando que están listos para ser confirmados (commit).
+
+```bash
+git commit -m "mensaje"
+```
+Crea un commit (registro de los cambios) con el mensaje especificado. Es el paso que guarda oficialmente los cambios en el historial del repositorio.
+
+```bash
+git log
+```
+Muestra un historial de todos los commits realizados en el repositorio, incluyendo autor, fecha y mensaje.
+
+```bash
+git status
+```
+Muestra el estado actual del repositorio, incluyendo los archivos modificados, nuevos, eliminados, y los que están listos para hacer commit.
+
+Con estos pasos, tu carpeta ya es un repositorio Git y puedes comenzar a trabajar en tu proyecto utilizando control de versiones.

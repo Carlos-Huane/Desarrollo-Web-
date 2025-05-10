@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+}
+.contenedor {
+    background: gainsboro;
+    min-height: 100vh;
+}
+.caja {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    text-align: center;
+    /* margin: 0px auto 10px; */
+    display: block;
+}
+
+.caja1 {
+    background: red;
+    /* padding-top: 10px;
+    padding-left: 50px; */
+    padding: 20px;
+    border-width: 5px;
+    border-style: outset;
+    display: none;
+}
+.caja2 {
+    background: yellow;
+    border-radius: 4%;
+    border-width: 5px;
+    border-style: dotted;
+    
+}
+.caja3{
+    background: green;
+}

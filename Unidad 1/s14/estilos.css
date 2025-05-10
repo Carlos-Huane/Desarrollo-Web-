@@ -1,0 +1,15 @@
+h1{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Insertar una imagen en un fondo de pantalla  */
+body{
+    /* background-color: rgb(195, 195, 18); */
+    background-image: url("https://th.bing.com/th/id/R.e7815b45cf4c5e13b592ca009269478b?rik=PJl4OkdqNWg%2fsg&riu=http%3a%2f%2fwww.vmascotas.com%2fwp-content%2fuploads%2f2020%2f10%2fInformacion-sobre-gatos-Has-decidido-tener-un-gato-como-mascota-conoce-toda-todo-sobre-su-personaldad-y-como-cuidarlos.jpg&ehk=l5uDUG0ayKnaSPcqR7cD0nMcrN0SifWYtU8IPaHp3lo%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;        /* Para que cubra toda la pantalla */
+    background-repeat: no-repeat;  /* Para que no se repita */
+    height: 100vh;                 /* Asegura que el body tenga el alto completo de la pantalla */
+    margin: 0;
+}
