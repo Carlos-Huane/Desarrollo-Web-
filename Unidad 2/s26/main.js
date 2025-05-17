@@ -15,7 +15,7 @@ let text = ""; //texto vacio
 //agregamos a la variable text vacia un número con su salto de linea
 //esto formara una cadena de texto(numeros) uno debajo de otro 
 for (let i = 0; i < 10; i++) {
-text += i + "<br>";
+  text += i + "<br>";   // ""+ 0 + "br" ,  "0 + br + 1 br +  2 + br .... + 9 + br"
 }
 //la etiqueta p que tiene el id "demo" agregara lo que contiene text entonces
 //lo mostrara en el navegador
