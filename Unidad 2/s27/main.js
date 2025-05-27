@@ -34,7 +34,7 @@ while (number2 <= 12){
 */
 // Reto 3
 // ¿Cómo hacemos para imprimir todos los números pares e impares del 1 al 12?: En la segunda sentencia del while, incrementamos number en 1 (en lugar de 2) cada ciclo.
-/*
+
 let number3 = 1;
 while (number3 <= 12) {
     if (number3 % 2 === 0) {
@@ -44,7 +44,7 @@ while (number3 <= 12) {
     }
     number3 += 1;
 }
- */
+
 
 // RECORRER ARREGLOS
 
@@ -58,13 +58,13 @@ while(i < paises.length) {
 
 
 // DO WHILE
-
 let iterador = 0;
 console.log("do-while")
 do {
     iterador++;
     console.log(iterador);
 } while(iterador<5)
+
 
 // WHILE
 console.log("while")

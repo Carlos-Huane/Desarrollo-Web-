@@ -46,9 +46,8 @@ console.log(typeof(numero))  //variable de tipo number: donde abarca enteros, de
 var palabra = "un ejemplo, estoy escribiendo y este texto es de tipo string";
 
 console.log(typeof(palabra)) //variable de tipo de string
-
 var prueba = true;
-console.log(typeof(prueba))  // variable de tipo de dato: booleano
+console.log(typeof(prueba))  // variable de tipo de dato: booleano (true o false)
 
 //comentarios de una sola linea
 /*quiero realizar comentarios
@@ -66,3 +65,6 @@ alert(texto_1);
 console.assert(str.indexOf('primero') === 0);
 console.assert(str.indexOf('primero') === -1); //saldra error porque seria -1 si no existiera la palabra: primero
 console.assert(str.indexOf('tercero') === 1); //saldra error debe ser: segundo
+
+
+var cantidadLitrosEnero = 3

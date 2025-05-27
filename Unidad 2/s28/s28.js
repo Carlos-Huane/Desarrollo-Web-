@@ -1,4 +1,4 @@
-/*function suma(a, b) {
+function suma(a, b) {
     let resultado = a+b;
     return resultado;
 }
@@ -20,7 +20,7 @@ function saludar(nombre, edad) {
 let mensaje = saludar('Carlos', 24)
 console.log(mensaje)
 
-*/
+
 
 function puede_votar(edad) {
     if (edad >= 18) {
@@ -54,6 +54,7 @@ if(validadEdad(20)){
 }
 */
 
+/*
 let suma = (a, b) => a+b;
 
 let resta = (a, b) => {
@@ -66,3 +67,4 @@ function valor1(){
 }
 let valor = () => 3;
 console.log(resta(10, 2))
+*/
