@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(26, 77, 118)
+    
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+.contenedor {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    gap: 0px 20px;
+    /* align-items: center; */
+}
+.card {
+    width: 300px;
+    height: 400px;
+    border-radius: 1%;
+}
+img {
+    width: 100%;
+    height: 40%;
+}
+
+.info {
+    background-color: white;
+    padding: 20px 10px;
+}

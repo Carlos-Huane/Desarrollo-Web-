@@ -1,0 +1,35 @@
+section {
+    background-color: rgb(234, 130, 117);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.field {
+    width: 45%;
+
+}
+textarea {
+    width: 93%;
+}
+
+.boton {
+    margin-top: 10px;
+    width: 70px;
+    background-color: orange;
+    color: white;
+    padding: 5px;
+}
+
+@media(max-width:600px){
+    .field {
+        width: 93%;
+    }
+}
