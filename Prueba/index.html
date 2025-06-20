@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>Cifrado César</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>Cifrado César</h1>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" placeholder="Escribe o pega aquí..."></textarea>
+
+        <label for="clave">Clave (número)</label>
+        <input type="number" id="clave" placeholder="Ejemplo: 3" />
+
+        <div class="botones">
+            <button onclick="cifrar()">🔐 Cifrar</button>
+            <button onclick="descifrar()">🔓 Descifrar</button>
+            <button onclick="copiarResultado()">📋 Copiar</button>
+            <button onclick="limpiar()">🧹 Limpiar</button>
+        </div>
+        <label for="resultado">Resultado</label>
+        <textarea id="resultado" readonly></textarea>
+
+        <footer>© Todos los derechos reservados 2025</footer>
+    </div>
+</body>
+</html>
